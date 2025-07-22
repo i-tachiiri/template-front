@@ -1,11 +1,11 @@
 {
-	"name": "astrology-form",
+	"name": "template-front",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
 		"build": "npm run copy-static && tsc",
 		"copy-static": "copyfiles -u 1 public/index.html public/style/**/* dist",
-		"deploy": "npx wrangler pages deploy ./dist --project-name=astrology-form",
+		"deploy": "npx wrangler pages deploy ./dist --project-name=template-front",
 		"dev": "npx wrangler pages dev dist"
 	},
 	"devDependencies": {
