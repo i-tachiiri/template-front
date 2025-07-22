@@ -1,0 +1,10 @@
+.side-nav{
+  container-name: side-nav;
+  container-type: inline-size;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+/*
+      			<nav class="side-nav"><ul><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></nav>
+
+*/

@@ -1,0 +1,34 @@
+[
+  {
+    "ClassName": "GridBox",
+    "SelfId": "GridBox1",
+    "StyleSheet": "../style/GridBox.css",
+    "Script": "../Component/GridBox.js",
+    "Children": [
+      {
+        "ClassName": "Content",
+        "SelfId": "Content1",
+        "StyleSheet": "../style/Content.css",
+        "Script": "../Component/Content.js",
+        "Children": [
+          {
+            "ClassName": "InputDate",
+            "SelfId": "InputDate1",
+            "StyleSheet": "../style/InputDate.css",
+            "Script": "../Component/InputDate.js",
+            "Required": false,
+            "Children": []
+          },
+          {
+            "ClassName": "InputDate",
+            "SelfId": "InputDate2",
+            "StyleSheet": "../style/InputDate.css",
+            "Script": "../Component/InputDate.js",
+            "Required": false,
+            "Children": []
+          }
+        ]
+      }
+    ]
+  }
+]

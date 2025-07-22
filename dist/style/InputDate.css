@@ -1,0 +1,16 @@
+input.InputDate{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 8px;
+  padding-left: 24px;
+}
+label.InputDate{
+  font-size: small;
+  font-weight: bold;
+  margin-top:8px;
+  margin-bottom: 8px;
+}

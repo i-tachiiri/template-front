@@ -1,0 +1,13 @@
+.Header {
+  padding: 8px;
+  border-bottom: 1px solid #333333;
+  display: grid;
+  text-align: center;
+  grid-column: 1/25;
+  padding-bottom: 16px;
+}
+
+.Header__text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}

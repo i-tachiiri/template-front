@@ -1,0 +1,8 @@
+.Content {
+  container-name: content;
+  container-type: inline-size;
+  display: grid;
+  grid-column: 9/17;
+  grid-row: 1/1;
+  text-align: center;
+}

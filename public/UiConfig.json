@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "GridBox",
+    "ClassName": "GridBox",
+    "Children": [
+      {
+        "Type": "Header",
+        "ClassName": "Header",
+        "TextContent": "Astro Form",
+        "Children": []
+      }
+    ]
+  },
+  {
+    "Type": "GridBox",
+    "ClassName": "GridBox",
+    "Children": [
+      {
+        "Type": "Content",
+        "ClassName": "Content",
+        "Children": [
+          {
+            "Type": "DatePicker",
+            "ClassName": "DatePicker",
+            "Required": false,
+            "LabelName": "生年月日",
+            "Children": []
+          },
+          {
+            "Type": "TimePicker",
+            "ClassName": "TimePicker",
+            "Required": false,
+            "LabelName": "出生日時",
+            "Children": []
+          }
+        ]
+      }
+    ]
+  }
+]
